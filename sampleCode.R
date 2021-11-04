@@ -1,5 +1,5 @@
 # Parameters
-n = 100
+n = 50
 b = 5
 
 # Data
@@ -8,3 +8,6 @@ y = x*b+rnorm(n)
 
 # Run Regression
 regression = lm(y~x)
+
+# Print out the summary
+print(summary(regression))
